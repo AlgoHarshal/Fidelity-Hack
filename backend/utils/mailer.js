@@ -1,5 +1,9 @@
 const nodemailer = require('nodemailer');
+const dns = require('dns');
 const { isInternalUser } = require('./internalAccounts');
+
+// Force IPv4 resolution to prevent ENETUNREACH errors with Gmail's IPv6 servers
+dns.setDefaultResultOrder('ipv4first');
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
