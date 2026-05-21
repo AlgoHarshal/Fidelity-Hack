@@ -1,0 +1,41 @@
+export const products = [
+  // SIPs
+  { id: "sip_1", category: "SIP", name: "HDFC Flexi SIP", returnRate: "14.2%", risk: "Moderate", minInvest: 500, lockIn: "No Lock-in", tag: "Popular Choice", description: "A flexible SIP allowing you to adjust monthly contributions based on your cash flow." },
+  { id: "sip_2", category: "SIP", name: "SBI Long Term SIP", returnRate: "12.8%", risk: "Low", minInvest: 1000, lockIn: "3 Years", tag: "AI Recommended", description: "Steady wealth creation with tax benefits under ELSS guidelines." },
+  { id: "sip_3", category: "SIP", name: "Axis Bluechip SIP", returnRate: "15.1%", risk: "High", minInvest: 500, lockIn: "No Lock-in", tag: "High Growth", description: "Invests predominantly in large-cap companies for stable, long-term growth." },
+  { id: "sip_4", category: "SIP", name: "ICICI Smart SIP", returnRate: "13.5%", risk: "Moderate", minInvest: 1000, lockIn: "1 Year", tag: "", description: "Automatically balances between equity and debt based on market conditions." },
+  { id: "sip_5", category: "SIP", name: "Kotak Growth SIP", returnRate: "16.0%", risk: "High", minInvest: 500, lockIn: "No Lock-in", tag: "Aggressive", description: "Targeting high-growth mid-cap and small-cap sectors." },
+  { id: "sip_6", category: "SIP", name: "Mirae Asset SIP", returnRate: "14.8%", risk: "Moderate", minInvest: 1000, lockIn: "No Lock-in", tag: "Best for Beginners", description: "A balanced approach for first-time investors entering the equity market." },
+  { id: "sip_7", category: "SIP", name: "Nippon India SIP", returnRate: "11.5%", risk: "Low", minInvest: 100, lockIn: "No Lock-in", tag: "Micro-Investing", description: "Start investing with as little as ₹100 per month." },
+  { id: "sip_8", category: "SIP", name: "Quant Wealth SIP", returnRate: "18.2%", risk: "Very High", minInvest: 1000, lockIn: "No Lock-in", tag: "Maximum Returns", description: "Algorithm-driven investment strategy for maximum alpha generation." },
+
+  // Mutual Funds
+  { id: "mf_1", category: "Mutual Funds", name: "Parag Parikh Flexi Cap", returnRate: "17.4%", risk: "Moderate", minInvest: 1000, lockIn: "No Lock-in", tag: "Top Rated", description: "Invests across large, mid, and small-cap stocks, including international equities." },
+  { id: "mf_2", category: "Mutual Funds", name: "Quant Small Cap", returnRate: "22.1%", risk: "Very High", minInvest: 5000, lockIn: "No Lock-in", tag: "High Growth", description: "Aggressive wealth creation by investing in emerging small-cap companies." },
+  { id: "mf_3", category: "Mutual Funds", name: "Axis Midcap Fund", returnRate: "16.5%", risk: "High", minInvest: 5000, lockIn: "No Lock-in", tag: "", description: "Focuses on fast-growing mid-sized companies with strong fundamentals." },
+  { id: "mf_4", category: "Mutual Funds", name: "SBI Contra Fund", returnRate: "19.0%", risk: "High", minInvest: 5000, lockIn: "No Lock-in", tag: "Value Pick", description: "Invests in undervalued stocks with a contrarian approach." },
+  { id: "mf_5", category: "Mutual Funds", name: "ICICI Prudential Bluechip", returnRate: "13.2%", risk: "Low", minInvest: 1000, lockIn: "No Lock-in", tag: "Safe & Steady", description: "Invests in India's top 100 blue-chip companies for stable returns." },
+  { id: "mf_6", category: "Mutual Funds", name: "HDFC Top 100", returnRate: "14.1%", risk: "Moderate", minInvest: 1000, lockIn: "No Lock-in", tag: "", description: "A proven track record of wealth creation over two decades." },
+  { id: "mf_7", category: "Mutual Funds", name: "Kotak Emerging Equity", returnRate: "18.5%", risk: "High", minInvest: 5000, lockIn: "No Lock-in", tag: "AI Recommended", description: "Captures the growth of India's emerging mid-cap sector." },
+  { id: "mf_8", category: "Mutual Funds", name: "DSP Tax Saver", returnRate: "15.0%", risk: "Moderate", minInvest: 500, lockIn: "3 Years", tag: "Tax Saver", description: "Save tax under Section 80C while building long-term wealth." },
+
+  // Retirement
+  { id: "ret_1", category: "Retirement", name: "NPS Smart Pension", returnRate: "10.5%", risk: "Low", minInvest: 1000, lockIn: "Till Age 60", tag: "Govt Backed", description: "National Pension System offering structured retirement corpus building with tax benefits." },
+  { id: "ret_2", category: "Retirement", name: "HDFC Pension Plus", returnRate: "11.2%", risk: "Moderate", minInvest: 2000, lockIn: "5 Years", tag: "Retirement Focused", description: "Market-linked pension plan with life cover and annuity options." },
+  { id: "ret_3", category: "Retirement", name: "ICICI Retirement Wealth", returnRate: "12.0%", risk: "Moderate", minInvest: 5000, lockIn: "5 Years", tag: "AI Recommended", description: "Aggressive early-stage growth transitioning to safe debt near retirement." },
+  { id: "ret_4", category: "Retirement", name: "SBI Future Pension", returnRate: "9.8%", risk: "Very Low", minInvest: 1000, lockIn: "Till Age 60", tag: "Safe Choice", description: "Guaranteed maturity benefits with capital protection." },
+  { id: "ret_5", category: "Retirement", name: "Max Retirement Secure", returnRate: "10.0%", risk: "Low", minInvest: 2500, lockIn: "10 Years", tag: "", description: "Combines the benefits of insurance protection and retirement savings." },
+  { id: "ret_6", category: "Retirement", name: "Tata Smart Pension", returnRate: "11.5%", risk: "Moderate", minInvest: 3000, lockIn: "5 Years", tag: "", description: "Flexible premium payment options with dynamic fund allocation." },
+  { id: "ret_7", category: "Retirement", name: "LIC Jeevan Shanti", returnRate: "7.5%", risk: "Zero", minInvest: 100000, lockIn: "Lifelong", tag: "Guaranteed Income", description: "Single premium plan offering guaranteed lifelong annuity." },
+  { id: "ret_8", category: "Retirement", name: "Aditya Birla Retirement Fund", returnRate: "13.5%", risk: "High", minInvest: 1000, lockIn: "5 Years", tag: "High Growth", description: "Equity-heavy retirement fund for younger investors with high risk appetite." },
+
+  // Insurance
+  { id: "ins_1", category: "Insurance", name: "HDFC Life Shield", returnRate: "Guaranteed 6.5%", risk: "Low Risk", minInvest: 800, lockIn: "Term length", tag: "Capital Protection", description: "Comprehensive term life insurance with critical illness riders and capital protection benefits." },
+  { id: "ins_2", category: "Insurance", name: "ICICI iProtect", returnRate: "Estimated 8.2%", risk: "Low", minInvest: 750, lockIn: "5 Years", tag: "Wealth + Protection", description: "Smart plan offering market-linked growth combined with a high-cover life policy." },
+  { id: "ins_3", category: "Insurance", name: "Max Life Smart Secure", returnRate: "Guaranteed Returns", risk: "Zero Risk", minInvest: 900, lockIn: "10 Years", tag: "Capital Protection", description: "Premium term plan with 100% return of premium option upon maturity, ensuring zero capital loss." },
+  { id: "ins_4", category: "Insurance", name: "SBI Life eShield", returnRate: "Guaranteed 7.1%", risk: "Low Risk", minInvest: 650, lockIn: "Term length", tag: "Tax Saving", description: "Simple, highly affordable pure protection term insurance plan with guaranteed tax benefits." },
+  { id: "ins_5", category: "Insurance", name: "Tata AIA Sampoorna", returnRate: "Guaranteed 5.8%", risk: "Low", minInvest: 1200, lockIn: "Whole Life", tag: "Long Term Safety", description: "Protection up to age 100 with regular income payouts and guaranteed capital preservation." },
+  { id: "ins_6", category: "Insurance", name: "LIC Tech Term", returnRate: "Guaranteed 6.0%", risk: "Low Risk", minInvest: 1000, lockIn: "Term length", tag: "Tax Saving", description: "Non-linked, pure protection online term assurance plan with maximum section 80C deductions." },
+  { id: "ins_7", category: "Insurance", name: "Bajaj Allianz Smart Protect", returnRate: "Estimated 7.8%", risk: "Low", minInvest: 850, lockIn: "5 Years", tag: "Wealth + Protection", description: "Customizable plan with high market-linked returns and multi-illness add-ons." },
+  { id: "ins_8", category: "Insurance", name: "Aditya Birla DigiShield", returnRate: "Estimated 6.9%", risk: "Low Risk", minInvest: 700, lockIn: "Term length", tag: "Long Term Safety", description: "Instant policy issuance with flexible payout structures and guaranteed growth riders." }
+]
