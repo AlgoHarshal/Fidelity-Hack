@@ -107,7 +107,7 @@ npm run dev
 
 **Frontend (Vercel)**:
 1. Connect GitHub to Vercel.
-2. Set Root Directory to `frontend`.
+2. Set your Root Directory to `frontend`.
 3. Add Environment Variable: `VITE_API_URL=https://your-backend-url.onrender.com/api`
 
 **Backend (Render)**:
